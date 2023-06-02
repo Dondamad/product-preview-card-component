@@ -9,7 +9,7 @@ export default function Home() {
           <Image
             className="object-cover rounded-l-lg mobile:hidden"
             src="/images/image-product-desktop.jpg"
-            alt="Picture of the author"
+            alt="product"
             width={300}
             height={450}
           />
@@ -17,7 +17,7 @@ export default function Home() {
           <Image
             className="hidden rounded-t-lg mobile:block mobile:w-full"
             src="/images/image-product-mobile.jpg"
-            alt="Picture of the author"
+            alt="product"
             width={300}
             height={450}
           />
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
 
           <Button
-            icon={<Image width={16} height={16} src="/images/icon-cart.svg" alt="Search" />}
+            icon={<Image width={16} height={16} src="/images/icon-cart.svg" alt="cart-icon" />}
             className="w-full text-center mt-7"
           >
             Add to Cart
