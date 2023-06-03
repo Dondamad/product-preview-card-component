@@ -26,17 +26,12 @@ export default function RootLayout({
 }) {
   return (
     <html className={`${montserrat.variable} ${fraunces.variable}`} lang="en">
-      <body className="flex flex-col items-center justify-center min-h-screen bg-theme-cream-500">
-        <div className="flex flex-col items-center justify-center flex-grow">
-          <main>
-            {children}
-          </main>
-        </div>
-        <footer className="relative w-full text-center bottom-1">
-          <p className="text-sm font-montserrat">
-            Designed by <a className="text-theme-dark-cyan-500" href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="https://github.com/Dondamad" className="text-theme-dark-cyan-500">DonnxDev</a>.
-          </p>
+      <body className="flex flex-col items-center justify-center h-screen sm:flex-col bg-theme-cream-500">
+        <main>
+          {children}
+        </main>
+        <footer className="absolute justify-center hidden text-center bottom-3 sm:block sm:bottom-3">
+          <p className="text-sm font-montserrat">Designed by <a className="text-theme-dark-cyan-500" href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>. Coded by <a href="#" className="text-theme-dark-cyan-500">DonnxDev</a>.</p>
         </footer>
       </body>
     </html>
