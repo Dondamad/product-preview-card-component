@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
     const getButtonStyle = () => {
         switch (variant) {
             case 'primary':
-                return 'bg-primary-500 hover:bg-primary-600 text-white';
+                return 'bg-theme-dark-cyan-500 hover:bg-theme-dark-cyan-600 text-white';
             case 'secondary':
                 return 'bg-gray-300 hover:bg-gray-400 text-gray-700';
             default:
@@ -30,7 +30,7 @@ const Button: React.FC<ButtonProps> = ({
             className={`flex items-center justify-center py-3 px-4 rounded-lg ${getButtonStyle()} ${className}`}
             {...props}
         >
-            {icon && <span className="mr-2">{icon}</span>}
+            {icon && <span className="mr-3">{icon}</span>}
             {children}
         </button>
     );
