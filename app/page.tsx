@@ -23,24 +23,24 @@ export default function Home() {
           />
         </div>
         <div className="w-6/12 h-full p-8 bg-white rounded-r-lg mobile:p-6 mobile:rounded-b-lg mobile:rounded-r-none mobile:w-full">
-          <p className="font-sans text-xs uppercase tracking-[5px] mb-5">perfume</p>
+          <p className="font-montserrat text-xs uppercase tracking-[5px] mb-5">perfume</p>
 
-          <h1 className="font-serif text-3xl font-bold leading-8 text-[#1C232B]">
+          <h1 className="font-serif text-[2rem] font-bold leading-8 text-[#1C232B]">
             Gabrielle Essence Eau De Parfum
           </h1>
 
-          <p className="mt-6 text-sm leading-[23px] tracking-wide text-[#6C7289]">
+          <p className="mt-6 font-montserrat text-sm leading-[23px] text-[#6C7289]">
             A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
           </p>
 
           <div className="flex items-center mt-7">
             <span className="font-serif text-3xl tracking-wide text-primary-500">$149.99</span>
-            <span className="ml-4 line-through text-[#70768F]">$169.99</span>
+            <span className="ml-5 line-through text-sm text-[#70768F]">$169.99</span>
           </div>
 
           <Button
             icon={<Image width={16} height={16} src="/images/icon-cart.svg" alt="cart-icon" />}
-            className="w-full text-center mt-7"
+            className="w-full font-medium text-center font-montserrat mt-7"
           >
             Add to Cart
           </Button>
