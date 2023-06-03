@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Product preview card component solution
 
-## Getting Started
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users should be able to:
 
-## Learn More
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Desktop
+![image](https://github.com/Dondamad/product-preview-card-component/assets/62839557/a5f82728-d595-4c0c-b4af-6628315503d5)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Mobile
+<p align="center">
+  <img src="https://github.com/Dondamad/product-preview-card-component/assets/62839557/7236f906-cfb7-46a0-b0cb-b0d5a6a3ca36">
+</p>
 
-## Deploy on Vercel
+### Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-using-nextjs-and-tailwindcss-SCiPedQvty)
+- [Live Site](https://product-preview-card-component-dondamad.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+
+### What I learned
+
+- Making a responsive website using Tailwind CSS utility classes.
+- Learning Next.js and understanding functional component structure.
+- Configuring and using Tailwind CSS in a Next.js project.
+- Implementing responsive design with media queries or responsive utility classes.
+- Reusing components for modular and maintainable code.
+
+### Continued development
+
+- Implement Class Variance Authority (CVA) for flexible and reusable components.
+- Refine responsive design skills with Tailwind CSS.
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@Dondamad](https://www.frontendmentor.io/profile/Dondamad)
